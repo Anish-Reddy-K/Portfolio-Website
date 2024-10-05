@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embeddium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/embeddium-logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="header-logo">
+                <img src="images/website-logo.png" alt="Embeddium Logo" class="header-logo">
+            </a>
+            <ul>
+                <li><a href="#about-features-ui">About</a></li>
+                <li><a href="https://github.com/Anish-Reddy-K/embeddium/releases/download/v1.0.0/Embeddium.zip">Download</a></li>
+                <li><a href="https://github.com/Anish-Reddy-K/embeddium" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="section">
+            <div class="logo-container">
+                <img src="images/embeddium-logo.png" alt="Embeddium Logo" class="app-logo" id="app-logo">
+            </div>
+
+            <img src="images/text-logo.png" alt="Embeddium Logo" class="text-logo" id="text-logo">
+            
+            <a href="https://github.com/Anish-Reddy-K/embeddium/releases/download/v1.0.0/Embeddium.zip" class="download-button">Download for Windows</a>
+
+            <a href="#changelog" class="last-updated">Last updated August 3, 2024</div>
+
+            <a href="#about-features-ui" class="scroll-indicator"></a>
+        </section>
+ 
+        <section id="about-features-ui" class="section">
+            <h2>About Embeddium</h2>
+            <p>Embeddium is a user-friendly desktop application that democratizes access to vector databases and embeddings. It simplifies complex processes, making powerful embedding tools accessible to non-technical users, small businesses, researchers, and hobbyists alike.</p>
+        
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <h3>File Input</h3>
+                    <p>Support for CSV, JSON, TXT, and XLSX input file formats. Select your input file to convert into a vector embedding.
+                    </p>
+                    <div class="feature-image">
+                        <img src="images/ui1.png" alt="File Input UI" draggable="false">
+                    </div>
+                </div>
+        
+                <div class="feature-item">
+                    <h3>Model Selection</h3>
+                    <p>Choose from popular sentence-transformers models. View model descriptions and performance metrics.</p>
+                    <div class="feature-image">
+                        <img src="images/ui2.png" alt="Model Selection UI" draggable="false">
+                    </div>
+                </div>
+        
+                <div class="feature-item">
+                    <h3>Output Options</h3>
+                    <p>Select from multiple output formats including .pt, .npy, .hdf5, and .faiss. Customize save location.</p>
+                    <div class="feature-image">
+                        <img src="images/ui3.png" alt="Output Options UI" draggable="false">
+                    </div>
+                </div>
+        
+                <div class="feature-item">
+                    <h3>Embedding Generation</h3>
+                    <p>Real-time progress tracking with cancellation option. View estimated time remaining and processing speed.</p>
+                    <div class="feature-image">
+                        <img src="images/ui4.png" alt="Embedding Generation UI" draggable="false">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="changelog" class="section">
+            <h2>Changelog</h2>
+            
+            <div class="changelog-card">
+              <h3>August 6, 2024</h3>
+              <div class="version">Version 1.0.0</div>
+              <ul>
+                <li>Currently working on GPU detection fix in v1.0.0, new release will be out by Aug 8, 2024</li>
+                <li>Initial release of Embeddium v1.0.0</li>
+                <li>Added support for CSV, JSON, TXT, and XLSX file input formats</li>
+                <li>Integrated popular sentence-transformers models for embedding generation</li>
+                <li>Added multiple output formats: .pt, .npy, .hdf5, and .faiss</li>
+                <li>Introduced real-time progress tracking for embedding generation</li>
+                <li>Implemented CPU/GPU hardware usage and multithread processing</li>
+              </ul>
+            </div>
+          </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <a href="#" class="footer-logo-link">
+                    <img src="images/website-logo.png" alt="Embeddium Logo" class="footer-logo">
+                </a>
+            </div>
+            <div class="footer-center">
+                <div class="footer-text">© 2024 Embeddium</div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-text">
+                    Created by <a href="https://anishreddy.tech" target="_blank" rel="noopener noreferrer" class="creator-name">Anish Reddy</a>
+                </div>
+                <div class="footer-text">
+                    <a href="https://github.com/Anish-Reddy-K/embeddium" target="_blank" rel="noopener noreferrer">GitHub</a> | 
+                    <a href="mailto:anishreddy3456@gmail.com">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
